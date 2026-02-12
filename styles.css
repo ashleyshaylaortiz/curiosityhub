@@ -1,0 +1,28 @@
+
+
+@font-face{
+	font-family:starborn;
+	src:url("../fonts/starborn,tff");
+}
+
+
+
+body{
+background-color:#A0522D;
+}
+
+
+
+
+
+title{
+color:#BDB76B;
+font-family:starborn, sanserif;
+font-size: 2.5em; /*2.5*16=40px*/
+}
+
+
+h1{
+color:#460809;
+}
+
