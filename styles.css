@@ -16,7 +16,7 @@ background-color:#3B1709;
 
 
 title{
-color:#BDB76B;
+color:#94482E;
 font-family:Starborn, sanserif;
 font-size: 2.5em; /*2.5*16=40px*/
 }
@@ -25,4 +25,6 @@ font-size: 2.5em; /*2.5*16=40px*/
 h1{
 color:#460809;
 }
-
+p{
+color:#84B85C;
+}
