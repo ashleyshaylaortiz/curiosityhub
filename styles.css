@@ -1,30 +1,80 @@
-
-
-@font-face{
-	font-family:'Starborn';
-	src:url(fonts/Starborn.tff);
+body {
+    font-family: system-ui, monospace;
+    padding: 24px;
+    color: #33170E;
+    background-color: #5C3222;
 }
 
-
-
-body{
-background-color:#3B1709;
+.h11 {
+    color: #F26898;
+}
+#greeting {
+    color: #3b82f6;
+}
+#btn-group1{
+    display: flex;
+    padding: 70px;
+    gap: 20px;
+    flex-direction:column;
+}
+button  {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    cursor: pointer;
+}
+#artgarden-btn {
+    padding: 20px 16px;
+    border-radius: 6px;
+    border: 1px solid #90D948;
+    background-color: #90D948;
+    cursor: pointer;
 }
 
-
-
-
-
-title{
-color:#94482E;
-font-family:Starborn, sanserif;
-font-size: 2.5em; /*2.5*16=40px*/
+#artgarden-btn:hover{
+    transition-duration: 0.4s;
+    background-color: #698a45;
+    border: 1px solid #698a45;
 }
 
-
-h1{
-color:#460809;
+#inspiration-btn {
+    padding: 20px 16px;
+    border-radius: 6px;
+    border: 1px solid #B668D9;
+    background-color: #B668D9;
+    cursor: pointer;
 }
-p{
-color:#84B85C;
+
+#inspiration-btn:hover{
+    transition-duration: 0.4s;
+    background-color: #8f4bae;
+    border: 1px solid #8f4bae;
+}
+
+#commissions-btn {
+    padding: 20px 16px;
+    border-radius: 6px;
+    border: 1px solid #00CFCC;
+    background-color: #00CFCC;
+    cursor: pointer;
+}
+
+#commissions-btn:hover{
+    transition-duration: 0.4s;
+    background-color: #059f9c;
+    border: 1px solid #059f9c;
+}
+
+#about-btn {
+    padding: 20px 16px;
+    border-radius: 6px;
+    border: 1px solid #F27EC1;
+    background-color: #F27EC1;
+    cursor: pointer;
+}
+
+#about-btn:hover{
+    transition-duration: 0.5s;
+    background-color: #b3598e;
+    border: 1px solid #b3598e;
 }
