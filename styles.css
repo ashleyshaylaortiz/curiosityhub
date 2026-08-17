@@ -2,91 +2,93 @@ body {
     font-family: system-ui, monospace;
     padding: 2emx;
     color: #33170E;
-    background-color: #5C3222;
+    background-color: #390d0d;
 }
 
 .h11 {
-    color: #F26898;
-    text-align: center;
+    color: #cd457e;
+    text-align: left;
+    padding-left: 1em;
+    padding-top: 1em;
 }
 #greeting {
     color: #3b82f6;
 }
 #btn-group1{
     display: flex;
-    padding: 7em;
-    gap: 2em;
-    flex-direction:column;
+    padding: 2em;
+    gap: 1em;
+    flex-direction:row;
 }
 button  {
     padding: 2em 1em;
-    border-radius: 2em;
+    border-radius: 5em;
     border: .25em solid #d1d5db;
     cursor: pointer;
 }
 #artgarden-btn {
-    padding: 2em 1em;
+    padding: 8em 3em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 650;
     border-radius: 2em;
-    border: .25em solid #90D948;
-    background-color: #90D948;
+    border: .25em solid #4d1919;
+    background-color: #4d1919;
     cursor: pointer;
 }
 
 #artgarden-btn:hover{
     transition-duration: 0.4s;
-    background-color: #698a45;
-    border: .25em  solid #698a45;
+    background-color: #afd642;
+    border: .25em  solid #afd642;
 }
 
 #inspiration-btn {
-    padding: 2em 1em;
+    padding: 8em 3em;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 650;
     border-radius: 2em;
-    border: .25em  solid #B668D9;
-    background-color: #B668D9;
+    border: .25em  solid #4d1919;
+    background-color: #4d1919;
     cursor: pointer;
 }
 
 #inspiration-btn:hover{
     transition-duration: 0.4s;
-    background-color: #8f4bae;
-    border: .25em solid #8f4bae;
+    background-color: #cd457e;
+    border: .25em solid #cd457e;
 }
 
 #commissions-btn {
-    padding: 2em 1em;
+    padding: 8em 3em;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 650;
     border-radius: 2em;
-    border: .25em solid #00CFCC;
-    background-color: #00CFCC;
+    border: .25em solid #4d1919;
+    background-color: #4d1919;
     cursor: pointer;
 }
 
 #commissions-btn:hover{
     transition-duration: 0.4s;
-    background-color: #059f9c;
-    border: .25em  solid #059f9c;
+    background-color: #ff751f;
+    border: .25em  solid #ff751f;
 }
 
 #about-btn {
-    padding: 2em 1em;
+    padding: 8em 3em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 650;
     
     border-radius: 2em;
-    border: .25em  solid #F27EC1;
-    background-color: #F27EC1;
+    border: .25em  solid #4d1919;
+    background-color: #4d1919;
     cursor: pointer;
 }
 
 #about-btn:hover{
     transition-duration: 0.5s;
-    background-color: #b3598e;
-    border: .25em solid #b3598e;
+    background-color: #ffbb22;
+    border: .25em solid #ffbb22;
 }
 
 .WIPTITLE{
