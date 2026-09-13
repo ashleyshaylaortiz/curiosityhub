@@ -29,7 +29,7 @@ body {
     font-size: 3em;
     text-align: left;
     padding-left: 5.5em;
-    padding-top: 2px;
+    padding-top:.15em;
 }
 #greeting {
     color: #3b82f6;
