@@ -104,7 +104,7 @@ body {
 
 #artgarden-btn{
     
-   padding:2em;
+   padding:.5em;
    width: 20em;
    height: 40em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -114,6 +114,8 @@ body {
     background-color: #4d1919;
     cursor: pointer;
     align-items:center;
+    justify-items: center;
+    
 }
 
 #artgarden-btn:hover{
