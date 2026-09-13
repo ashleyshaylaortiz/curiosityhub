@@ -4,6 +4,22 @@ body {
     color: #33170E;
     background-color: #390d0d;
 }
+.topcard{
+
+    padding:.5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    background-color:#270707;
+    border: .25em solid #270707;
+    border-radius:5em;
+    display:grid;
+    flex-direction:row;
+    font-size: 1em;
+    color: #cd457e;
+
+    
+   
+}
 
 .h11 {
     color: #cd457e;
@@ -14,21 +30,76 @@ body {
 #greeting {
     color: #3b82f6;
 }
+.home{
+        color: #FFFF;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 650;
+        text-decoration:none;
+        padding:.5em;
+    }
+
+.projects{
+        color: #28a69b;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 650;
+        text-decoration:none;
+        padding:.5em;
+    }
+
+.about{
+        color: #cd457e;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 650;
+        text-decoration:none;
+        padding:.5em;
+    }
+
+.shop{
+        color: #a072fa;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 650;
+        text-decoration:none;
+        padding:.5em;
+    }
+
+
+.contact{
+        color: #ff751f;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 650;
+        text-decoration:none;
+        padding:.5emm;
+    }
+    .curiosityhub{
+        color: #afd642;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 650;
+        text-decoration:none;
+        padding:.5em;
+    }
+
 #btn-group1{
-    display: flex;
-    padding: 2em;
-    gap: 1em;
-    flex-direction:row;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content:center;
+    justify-content: center;
+    padding: .25em;
+
+    margin: 3em;
+   
+    gap: .8em;
+   
 }
-button  {
-    padding: 2em 1em;
-    border-radius: 5em;
-    border: .25em solid #d1d5db;
-    cursor: pointer;
-}
-#artgarden-btn {
-    padding: 8em 3em;
+
+#artgarden-btn{
+    
+   padding:2em;
+   width: 200px;
+   height: 350px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  
     font-weight: 650;
     border-radius: 2em;
     border: .25em solid #4d1919;
@@ -43,7 +114,9 @@ button  {
 }
 
 #inspiration-btn {
-    padding: 8em 3em;
+    padding: 2em;
+    width: 200px;
+   height: 350px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 650;
     border-radius: 2em;
@@ -59,7 +132,9 @@ button  {
 }
 
 #commissions-btn {
-    padding: 8em 3em;
+    padding: 2em;
+    width: 200px;
+   height: 350px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 650;
     border-radius: 2em;
@@ -75,7 +150,10 @@ button  {
 }
 
 #about-btn {
-    padding: 8em 3em;
+
+    padding:2em;
+    width: 200px;
+   height: 350px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 650;
     
